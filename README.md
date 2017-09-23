@@ -78,7 +78,6 @@
 
 
 ```git clone url
-change the pwd to your local project...>
 git remote -v
 git remote add upstream
 git remote -v
