@@ -43,8 +43,9 @@
 
  If on adding remote origin gives following error<br/>
    ```raghvendra@raghs-pc:~/raghsgit$ git remote add origin https://github.com/raghsgit/raghsgit.git```<br/>
-   ```fatal: remote origin already exists.```
- Resolving
+   ```fatal: remote origin already exists.```<br/>
+   
+ Resolving<br/>
 	```raghvendra@raghs-pc:~/raghsgit$ git remote rm origin```
 
 <br/><b>Download a Project On your system to start work locally</b>
