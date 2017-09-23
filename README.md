@@ -38,15 +38,16 @@
 	```git push origin master```
 	
 	
-<br/><h3>Resolving Issues </h3>
-<li>if On adding remote origin gives following error</li>
-```# raghvendra@raghs-pc:~/raghsgit$</b> git remote add origin https://github.com/raghsgit/raghsgit.git
-fatal: remote origin already exists.```
+<br/>
+<h3>Resolving Issues </h3>
+	<li>if On adding remote origin gives following error</li>
+	```raghvendra@raghs-pc:~/raghsgit$ git remote add origin https://github.com/raghsgit/raghsgit.git```
+        ```fatal: remote origin already exists.```
 
-<li>Resolving</li>
-```raghvendra@raghs-pc:~/raghsgit$ git remote rm origin```
+	<li>Resolving</li>
+	```raghvendra@raghs-pc:~/raghsgit$ git remote rm origin```
 	
-<br/><b>on system to download the project</b>
+<br/><b>Download a Project On your system to start work locally</b>
 1) Download the repository with its content<br/>
 ```git clone "<url of project>"```<br/>
 2) now edit the files
@@ -55,20 +56,19 @@ fatal: remote origin already exists.```
 4) if there is a problem in adding files, one solution is to add file forcefully
 	```git add -f *```
 		
-4) git commit -m "message" (it also a step before uploading )
-5) git push origin master (it pushes the file)
+4) Commit the changes, with a message.
+	```git commit -m "message"```
+5) Upload your file to server
+	```git push origin master```
 
 
 
 <b>To synchronize with local repository</b><br/>
- <li>Add origin master if not added already</li>
+	<li>Add origin master if not added already</li>
+	```git remote add orign https://githubs.com/raghsgit/raghsgit.git```
+	
+	<br/><li>Now Pull the code from server</li>
+	```git pull origin master```
 
-```git remote add orign https://githubs.com/raghsgit/raghsgit.git```
-<br/>
-<b>Now Pull the code from server</b>
-
-```git pull origin master```
-
-<b>to remove origin master</b>
-
-```git remote rm origin```
+	<br/><li>to remove origin master</li>
+	```git remote rm origin```
