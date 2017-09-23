@@ -13,18 +13,18 @@
 	```sudo apt-get install git```
 
 <br/><b>configure git</b><br/>
-	```git config --global user.name "your_user_name"<br/>
-	   git config --global user.email "email_id"```
+	```git config --global user.name "your_user_name"```<br/>
+	```git config --global user.email "email_id"```
 	   
 <br/><b>create a local repository</b><br/>
-	```git init my_repository<br/>
-	cd my_repository<br/>
-	gedit readme<br/>
-	gedit mycode.c```
+	```git init my_repository```<br/>
+	```cd my_repository```<br/>
+	```gedit readme```<br/>
+	```gedit mycode.c```
 	
 <br/><b>now add above two files in index.</b><br/>
-	```git add readme<br/>
-	git add mycode.c<br/>```
+	```git add readme```<br/>
+	```git add mycode.c```
 	
 <br/><b>once we have made all the changes, we commit it</b><br/>
 	```git commit -m "some_massage"```
@@ -40,18 +40,20 @@
 	
 <br/><h3>Resolving Issues </h3>
 <li>if On adding remote origin gives following error</li>
-```b>raghvendra@raghs-pc:~/raghsgit$</b> git remote add origin https://github.com/raghsgit/raghsgit.git
+```# raghvendra@raghs-pc:~/raghsgit$</b> git remote add origin https://github.com/raghsgit/raghsgit.git
 fatal: remote origin already exists.```
 
 <li>Resolving</li>
-```<b>raghvendra@raghs-pc:~/raghsgit$</b> git remote rm origin```
+```raghvendra@raghs-pc:~/raghsgit$ git remote rm origin```
 	
 <br/><b>on system to download the project</b>
-1) git clone "link"
+1) Download the repository with its content<br/>
+```git clone "<url of project>"```<br/>
 2) now edit the files
-3) git add * (it prepares file to upload not upload)
-		if there is a problem one solution is to add file forcefully
-	git add -f *
+3) Now add (prepare) files to upload.<br/> 
+	```git add *```<br/>
+4) if there is a problem in adding files, one solution is to add file forcefully
+	```git add -f *```
 		
 4) git commit -m "message" (it also a step before uploading )
 5) git push origin master (it pushes the file)
@@ -59,10 +61,12 @@ fatal: remote origin already exists.```
 
 
 <b>To synchronize with local repository</b><br/>
-	<li>Add origin master if not added already</li>
+ <li>Add origin master if not added already</li>
 
 ```git remote add orign https://githubs.com/raghsgit/raghsgit.git```
-<li>Now Pull the code from server</li>
+<br/>
+<b>Now Pull the code from server</b>
+
 ```git pull origin master```
 
 <b>to remove origin master</b>
