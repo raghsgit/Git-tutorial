@@ -40,8 +40,8 @@
 	
 <br/>
 <h3>Resolving Issues </h3>
-	<li>if On adding remote origin gives following error</li>
-	```raghvendra@raghs-pc:~/raghsgit$ git remote add origin https://github.com/raghsgit/raghsgit.git```
+	<li>if on adding remote origin gives following error</li>
+	```raghvendra@raghs-pc:~/raghsgit$ git remote add origin https://github.com/raghsgit/raghsgit.git```<br/>
         ```fatal: remote origin already exists.```
 
 	<li>Resolving</li>
@@ -67,8 +67,8 @@
 	<li>Add origin master if not added already</li>
 	```git remote add orign https://githubs.com/raghsgit/raghsgit.git```
 	
-	<br/><li>Now Pull the code from server</li>
+	<li>Now Pull the code from server</li>
 	```git pull origin master```
 
-	<br/><li>to remove origin master</li>
+	<li>to remove origin master</li>
 	```git remote rm origin```
