@@ -74,3 +74,19 @@
    3) to remove origin master<br/>
 	```git remote rm origin```
 
+<h3> some Other useful Command</h3>
+
+
+```git clone url
+change the pwd to your local project...>
+git remote -v
+git remote add upstream
+git remote -v
+
+git fetch upstream
+git fetch --all
+git checkout master
+git checkout gh-pages
+git merge upstream/master
+```
+
