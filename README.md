@@ -63,12 +63,12 @@ Resolving
 
 
 <b>To synchronize with local repository</b><br/>
-	Add origin master if not added already
-	```git remote add orign https://githubs.com/raghsgit/raghsgit.git```
+       Add origin master if not added already<br/>
+	```git remote add orign https://githubs.com/raghsgit/raghsgit.git```</br>
 	
-	Now Pull the code from server
-	```git pull origin master```
+	Now Pull the code from server<br>
+	```git pull origin master```<br/>
 
-	to remove origin master
-	```git remote rm origin```
+	to remove origin master<br/>
+	```git remote rm origin```<br/>
 
