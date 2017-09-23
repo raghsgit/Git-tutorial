@@ -41,10 +41,10 @@
 <br/>
 <h3> Resolving Issues </h3><br/>
 
-1) If on adding remote origin gives following error<b/><br/>
+ If on adding remote origin gives following error<br/>
    ```raghvendra@raghs-pc:~/raghsgit$ git remote add origin https://github.com/raghsgit/raghsgit.git```<br/>
    ```fatal: remote origin already exists.```
-2) Resolving
+ Resolving
 	```raghvendra@raghs-pc:~/raghsgit$ git remote rm origin```
 
 <br/><b>Download a Project On your system to start work locally</b>
