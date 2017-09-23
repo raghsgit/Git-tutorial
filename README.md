@@ -39,12 +39,11 @@
 	
 	
 <br/>
-<h3> Resolving Issues </h3>
-<ul></ul>
-	<li>if on adding remote origin gives following error<br/></li>
+<h3> Resolving Issues </h3><br>
+If on adding remote origin gives following error<br/>
 	```raghvendra@raghs-pc:~/raghsgit$ git remote add origin https://github.com/raghsgit/raghsgit.git```<br/>
 	```fatal: remote origin already exists.```
-<ul></ul>  <li>Resolving</li>
+Resolving
 	```raghvendra@raghs-pc:~/raghsgit$ git remote rm origin```
 
 <br/><b>Download a Project On your system to start work locally</b>
@@ -64,13 +63,12 @@
 
 
 <b>To synchronize with local repository</b><br/>
-<ul></ul>
-	<li>Add origin master if not added already</li>
+	Add origin master if not added already
 	```git remote add orign https://githubs.com/raghsgit/raghsgit.git```
 	
-	<li>Now Pull the code from server</li>
+	Now Pull the code from server
 	```git pull origin master```
 
-	<li>to remove origin master</li>
+	to remove origin master
 	```git remote rm origin```
 
