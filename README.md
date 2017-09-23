@@ -39,14 +39,14 @@
 	
 	
 <br/>
-<h3>Resolving Issues </h3>
-<ul>
-	<li>if on adding remote origin gives following error<br/>
+<h3> Resolving Issues </h3>
+<ul></ul>
+	<li>if on adding remote origin gives following error<br/></li>
 	```raghvendra@raghs-pc:~/raghsgit$ git remote add origin https://github.com/raghsgit/raghsgit.git```<br/>
-	```fatal: remote origin already exists.```</li>
-        <li>Resolving
-	```raghvendra@raghs-pc:~/raghsgit$ git remote rm origin```</li>
-</ul>
+	```fatal: remote origin already exists.```
+<ul></ul>  <li>Resolving</li>
+	```raghvendra@raghs-pc:~/raghsgit$ git remote rm origin```
+
 <br/><b>Download a Project On your system to start work locally</b>
 1) Download the repository with its content<br/>
 ```git clone "<url of project>"```<br/>
@@ -64,13 +64,13 @@
 
 
 <b>To synchronize with local repository</b><br/>
-<ul>
-	<li>Add origin master if not added already<br/>
-	```git remote add orign https://githubs.com/raghsgit/raghsgit.git```</li>
+<ul></ul>
+	<li>Add origin master if not added already</li>
+	```git remote add orign https://githubs.com/raghsgit/raghsgit.git```
 	
 	<li>Now Pull the code from server</li>
 	```git pull origin master```
 
 	<li>to remove origin master</li>
 	```git remote rm origin```
-</ul>
+
