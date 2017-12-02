@@ -89,3 +89,10 @@ git checkout gh-pages
 git merge upstream/master
 ```
 
+git fetch 
+create new branch
+git checkout -b <branch_name>
+or to switch a branch
+git checkout <branch_name>
+to merge in header branch=>
+git merge origin/<branch_name>
