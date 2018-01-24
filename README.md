@@ -1,5 +1,5 @@
-- [X] Rules for Writing md [https://ourcodeworld.com/articles/read/162/tips-and-tricks-that-you-probably-don-t-know-with-the-github-markdown-in-readme-md-files]
-- [X] list of emojis for markdown :blush:[https://www.webpagefx.com/tools/emoji-cheat-sheet/]
+- [X] [Rules for Writing md](https://ourcodeworld.com/articles/read/162/tips-and-tricks-that-you-probably-don-t-know-with-the-github-markdown-in-readme-md-files)
+- [X] [list of emojis for markdown :blush:](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 <h3>Publishing Your Pages <small>Using Github </small></h3>
 
