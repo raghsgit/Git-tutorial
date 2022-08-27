@@ -18,7 +18,14 @@
 <br/><b>configure git</b><br/>
 	```git config --global user.name "your_user_name"```<br/>
 	```git config --global user.email "email_id"```
-	   
+	
+<br/><b>To check configured user name and user email</b><br/>
+	```git config --global user.name ```<br/>
+	```git config --global user.email ```<br/>
+	<b>Or Use </b><br/>
+	```git config --global --list ```<br/>
+	
+		   
 <br/><b>create a local repository</b><br/>
 	```git init my_repository```<br/>
 	```cd my_repository```<br/>
