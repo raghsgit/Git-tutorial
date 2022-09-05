@@ -1,15 +1,42 @@
 - [X] [Rules for Writing md](https://ourcodeworld.com/articles/read/162/tips-and-tricks-that-you-probably-don-t-know-with-the-github-markdown-in-readme-md-files)
 - [X] [list of emojis for markdown :blush:](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
-<h3>Publishing Your Pages <small>Using Github </small></h3>
+### Publishing Your Pages <small><u>Using Github </u></small>
 
-<ol>
-<li>Add a index.html in your project</li>
-<li>Create gh-pages branch of this repository</li>
-<li>Now go to setting to find : <b><q>your site is published at github_id.github.io/repo_name</q></b></li>
-<li>share that link</li>
-</ol>
-<br/><br/>
+1. check if git is installed  `git --version` 
+1. Create a local repo  `mkdir repoName`
+1. initialize this repo git init
+1. create first file say index.html `touch index.html`
+1. check the status `git status` #it shows that git is aware of the file but it is not added to the repo.
+    
+##### Tracked and Untracked file
+* **Tracked** - files that Git knows about and are added to the repository
+* **Untracked** - files that are in your working directory, but not added to the repository`
+	
+##### Git staging environment
+> Staged files are files that are ready to be committed to the repository you are working on. <br/>
+`git add file_name`
+>
+
+##### Git Commit
+>Git considers each commit change point or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.<br/>
+__Pro Tip :__ Always include a message while commiting file.<br/> 
+`git commit -a -m message`<br/>
+__-a:__ If file are not staged, it stages the file and commit
+__-m:__ It adds a message
+##### Git Commit Log 
+>`git log`
+>
+##### Git Help
+> * `git command -help` -  See all the available options for the specific command
+> * `git help --all` -  See all possible commands
+
+##### Publishing the page
+> 1. Add a index.html in your project
+> 1. Create gh-pages branch of this repository
+> 1. Now go to setting to find : your site is published at **github_id.github.io/repo_name**
+> 1. share that link</li>
+
 <h3>Setting Up git on your Local Machine</h3>
 
 <b>first install Git</b><br/>
@@ -106,3 +133,77 @@ or to switch a branch
 git checkout <branch_name>
 to merge in header branch=>
 git merge origin/<branch_name>
+
+
+
+
+
+*******************************
+
+# Markdown syntax guide
+
+## Headers
+
+# This is a Heading h1
+## This is a Heading h2 
+###### This is a Heading h6
+
+## Emphasis
+
+*This text will be italic*  
+_This will also be italic_
+
+**This text will be bold**  
+__This will also be bold__
+
+_You **can** combine them_
+
+## Lists
+
+### Unordered
+
+* Item 1
+* Item 2
+* Item 2a
+* Item 2b
+
+### Ordered
+
+1. Item 1
+1. Item 2
+1. Item 3
+  1. Item 3a
+  1. Item 3b
+
+## Images
+
+![This is a alt text.](/image/sample.png "This is a sample image.")
+
+## Links
+
+You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
+
+## Blockquotes
+
+> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
+>
+>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+
+## Tables
+
+| Left columns  | Right columns |
+| ------------- |:-------------:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |
+
+## Blocks of code
+
+```
+let message = 'Hello world';
+alert(message);
+```
+
+## Inline code
+
+This web site is using `markedjs/marked`.
