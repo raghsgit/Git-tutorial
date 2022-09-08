@@ -5,7 +5,7 @@
 
 1. check if git is installed  `git --version` 
 1. Create a local repo  `mkdir repoName`
-1. initialize this repo git init
+1. initialize this repo `git init`
 1. create first file say index.html `touch index.html`
 1. check the status `git status` #it shows that git is aware of the file but it is not added to the repo.
     
@@ -136,8 +136,29 @@ git merge origin/<branch_name>
 
 
 
+##### Git new branch
+> * `git branch new_branch_name`- create new branch
+> * `git branch` - Shows all the branches
+> * `git checkout branch_name` - change the branch 
+> * update files in this branch and **stage and commit** the file
+> * to merge new branch with master branch:: 
+>*1. `git checkout master` -change the branch to master
+>*2. `git merge new_branch`- master branch is merged with new_branch
+>* 3. As the new_branch and master branch are essentially same, so we can delete new_branch `git branch -d new_branch`
 
+##### Merge Conflict
+> * open the file in editor and fix the conflict
+> * commit the changes 
 
+#### Push local repository to Github
+> * create a repo in the github & copy url of the repo from code section <br/> __URL:__ `https://gihub.com/<user_name>/repo_name.git`
+> * `git remote add origin URL` -specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo.
+> * `git push --set-upstream origin master` __git push__ push our master branch to the origin url, and __--set-upstream__ set master branch as the default remote branch
+
+##### Git Pull
+>* `pull == fetch+merge`
+>* 
+  
 *******************************
 
 # Markdown syntax guide
